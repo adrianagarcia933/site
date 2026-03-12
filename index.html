@@ -26,7 +26,7 @@
                         <img src="C:\Users\Admin\Desktop\foto Adri.jpg"
                       alt="Imagem de foto de perfil" title="Imagem de foto de perfil de Adri">
                         <p>
-                            Ola,meu nome Adriana Garci, estou estudando Front-End, estou construindo meu primeiro Projeto.
+                            Ola,meu nome Adriana Garcia estou estudando Front-End, estou construindo meu primeiro Projeto.
                         </p>
                         
                         <article>
@@ -43,17 +43,73 @@
                                                 <h3>Portofolio</h3>
                                                 <p>
                                                     Este foi o primeiro programa que desenvolvi,estudando Front-end.
-                                                </p>
-                                                <article>
-                                                    <section>
+                                                    </p>
+                                                    <article>
+                                                        <section>
+                                                            <section id="Habilidades">
+                                                                    <h2>Habilidades e Tecnologias</h2>
+                                                                    <table>
+                                                                        <thead>
+                                                                            <tr>
+                                                                                <th>Tecnologia</th>
+                                                                                <th>Nivel</th>
+                                                                                <th>Decricao</th>
+                                                                            </tr>
+                                                                        </thead>
+                                                                        <tbody>
+                                                                            <tr>
+                                                                                <td>HTML</td>
+                                                                                <td>Iniciante</td>
+                                                                                <td>Capaz de construir estruturas de paginas web semanticas e responsaveis</td>
+                                                                            </tr>
+                                                                                <td>CSS</td>
+                                                                                <td>Intermediario</td>
+                                                                                <td>Experiencia com flexbox, grid e animacoes CSS</td>
+                                                                        </tr>
+                                                                                <td>JavaScript</td>
+                                                                                <td>Basico</td>
+                                                                                <td>Desenvolvimento de scripts do lado do cliente para interacoes </td>
+                                                                        </tr>
+                                                                            </tbody>
+                                                                    </table>
+                                                            </section>
+                                                        </section>
                                                         <footer>
                                                             <p>Direito reservado a Adri</p>
-
+                                                    
                                                             <section id="contato">
                                                                 <h2>Contato</h2>
                                                                 <p>Tem um projeto em mente? Entre em contato.</p>
-                                                                <address>
-                                                                    E-mail: <a
-                                                                        href="drica1garcia@gmail.com">drica1garcia@gmail.com</a><br>
-                                                                    Telefone: <a href="tel:5547999611866">999611866</a>
-                                                                </address>
+                                                                <form action="">
+                                                                    <label for="NOME">NOME:</label>
+                                                                    <input type="text" id="nome" name="nome" required><br>
+                                                    
+                                                                    <label for="email">Email:</label>
+                                                                    <input type="email" id="email" name="email" required><br>
+                                                    
+                                                                    <label for="Telefone">Telefone: </label>
+                                                                    <input type="tel" id="telefone" name="Telefone"><br>
+                                                    
+                                                                    <label for="assunto">Assunto:</label>
+                                                                    <select name="assunto" id="Assunto:">
+                                                                        <option value="orcamento">Orcamento:</option>
+                                                                        <option value="duvida">Duvidas:</option>
+                                                                        <option value="Outros">Outros: </option>
+                                                                    </select>
+                                                    
+                                                                    <br>
+                                                    
+                                                                    <label for="mensagem">Mensagem</label>
+                                                                    <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+                                                                    <required> <br>
+                                                    
+                                                                        <input type="checkbox" id="inscricao" name="Inscricao">
+                                                                        <label for="inscricao">Deseja receber minha newsletter? Fique por dentro.</label>
+                                                                        <br>
+                                                    
+                                                                        <input type="submit" value="Enviar mensagem">
+                                                                    </form>
+                                                                    <address>
+                                                                        E-mail: <a href="drica1garcia@gmail.com">drica1garcia@gmail.com</a><br>
+                                                                        Telefone: <a href="tel:5547999611866">999611866</a>
+                                                                    </address>
